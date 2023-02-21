@@ -1,0 +1,108 @@
+.delete{
+    margin-right: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 14px;
+    background-color: rgba(218, 65, 65, 0.719);
+}.body{
+    margin-top: 10%;
+    margin-left: 36%;
+    padding: 20px;
+    width: 20%;
+    color: rgb(14, 87, 151);
+    background-color: rgba(72, 65, 65, 0.46);
+    margin-right: 42%;
+    border: 2px rgb(10, 10, 11) solid;
+    border-radius: 15px;box-shadow: -6px 7px 37px 23px rgba(18,16,16,0.77);
+    -webkit-box-shadow: -6px 7px 37px 23px rgba(18,16,16,0.77);
+    -moz-box-shadow: -6px 7px 37px 23px rgba(18,16,16,0.77);
+    
+}li{
+    display: flex;
+    justify-content: space-between;
+    
+}.input{
+    margin-left: 10px;
+}li::before{
+    content: "";
+}li>p{
+    display: flex;
+    justify-content: flex-start;
+}span{
+    margin-left: -120px;
+    margin-right: 8px;
+    color: rgba(12, 12, 199, 0.805);
+}button{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(108, 144, 223);
+}input{
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(169, 197, 222);
+    width: 80%;
+}
+
+@media screen and (max-width:1050px) {
+    .input>button{
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}@media screen and (max-width:1250px) {
+    .input>button{
+        margin-left: 70px;
+        margin-top: 10px;
+    }input{
+        width: 85%;
+    }.body{
+        width: 30%;
+    }
+}@media screen and (max-width:1000px) {
+    .input>button{
+        margin-left: 70px;
+        margin-top: 10px;
+    }input{
+        width: 90%;
+    }.body{
+        width: 45%;
+        margin-left: 25%;
+    }li{
+        margin-left: -30%;
+    }
+}@media screen and (max-width:680px) {
+    .input>button{
+        margin-left: 70px;
+        margin-top: 10px;
+    }input{
+        width: 90%;
+    }.body{
+        width: 65%;
+        margin-left: 15%;
+    }li{
+        margin-left: -30%;
+    }
+}@media screen and (max-width:500px) {
+    .input>button{
+        margin-left: 70px;
+        margin-top: 10px;
+    }input{
+        width: 90%;
+    }.body{
+        width: 65%;
+        margin-left: 15%;
+    }li{
+        margin-left: -20%;
+    }
+}@media screen and (max-width:400px) {
+    .input>button{
+        margin-left: 100px;
+        margin-top: 10px;
+    }input{
+        width: 90%;
+    }.body{
+        width: 75%;
+        margin-left: 5%;
+    }li{
+        margin-left: 0%;
+    }
+}

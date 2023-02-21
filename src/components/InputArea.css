@@ -1,0 +1,13 @@
+.form > input {
+  border-radius: 5px;
+  border-color: rgb(98, 181, 223);
+  margin-right: 10px;
+  color: black !important;
+}
+.form>button{
+  color: rgb(153, 209, 209) !important;
+    background-color: rgb(111, 191, 147);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
