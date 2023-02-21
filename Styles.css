@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: auto;
+  min-width: 500px;
+  min-height: 250px;
+  min-width: 250px;
+  background-image: radial-gradient(gray 10%, transparent 0);
+  background: rgb(23, 142, 142);
+  border-radius: 20px;
+  background-size: 20px;
+  box-shadow: 10px grey;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.container1 > h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20%;
+  background-color: bisque;
+  font-size: 1.2rem;
+}
+
+.form > input {
+}
+
+button {
+  padding: 8px;
+  border-radius: 5px;
+}
+button > span {
+  color: aqua;
+  display: block;
+  padding: 2px;
+}
